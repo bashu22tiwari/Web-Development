@@ -90,3 +90,61 @@ li:hover{
     line-height: 25px;
 }
 
+/* Skill Section */
+
+#skill{
+    background-color: lightgrey;
+    width: 100%;
+}
+
+#skill #skill-heading i{
+    font-size: 35px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#skill #skill-heading h2{
+    display: inline-block;
+    font-size: 40px;
+}
+
+#skill-heading{
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 40px;
+    width: 22%;
+    font-family: sans-serif;
+}
+#skill-indicator{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#skill-indicator #indicator{
+    width: 20vw;
+    height: 30px;
+    background-color: white;
+    margin: 30px;
+    border-radius:20px;
+}
+
+#skill-indicator #indicator #html{
+    width: 80%;
+    background-color:aqua;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#skill-indicator #indicator #html p{
+    margin:0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
