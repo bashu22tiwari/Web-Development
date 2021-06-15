@@ -93,7 +93,7 @@ li:hover{
 /* Skill Section */
 
 #skill{
-    background-color: lightgrey;
+    background-color: rgb(243, 243, 243);
     width: 100%;
 }
 
@@ -128,7 +128,7 @@ li:hover{
 #skill-indicator #indicator{
     width: 20vw;
     height: 30px;
-    background-color: white;
+    background-color:lightgrey;
     margin: 30px;
     border-radius:20px;
 }
