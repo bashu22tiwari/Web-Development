@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.black-div{
+    background-color: cadetblue;
+    padding: 100px 0px 100px 30px;
+}
+
+#div2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+    margin: auto;
+}
+
+#div1{
+    background-image: url(p1.jpg);
+    height: 90vh;
+    
+}
+
+#div1-2{
+    height: auto;
+    width: 20%;
+    font-size:xx-large;
+    text-align: center;
+    margin: auto;
+    margin-top: px;
+    color: white;
+    background-color:black;
+}
+
+#div3{
+    background-image: url(p2.jpg);
+    height: 70vh;
+}
+
+#div5{
+    background-image: url(p3.jpg);
+    height: 50vh;
+}
+
+#div7{
+    background-image: url(p4.jpg);
+    height: 80vh;
+}
+
+.parallax{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    filter: opacity(10);
+}
+
+#div3-2{
+    position: absolute;
+    width: 20%;
+    height: 65px;
+    font-size:large;
+    text-align: center;
+    margin: 200px 0px 0px 400px;
+    background-color:rgb(23, 137, 230);
+}
+
