@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#company-name{
+    display: inline-block;
+}
+
+#company-name div i{
+    font-size: 40px;
+}
+
+#company-name div{
+    margin: 5px 0px 0px 40px;
+}
+
+
+#contact{
+    display: inline-block;
+}
+
+#contact div{
+    display: inline-block;
+}
+
+#navbar{
+    display: inline-block;
+    margin-top: -50px;
+}
+
+#navbar #navbar-list div li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+#navbar #navbar-list div{
+    display: inline-block;
+}
+
+h2{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}

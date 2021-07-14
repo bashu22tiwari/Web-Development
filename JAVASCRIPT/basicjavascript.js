@@ -77,7 +77,84 @@
 
 // console.log(greet());
 
-let addition = function(x,y) {
-    return x + y;
-   }
-   console.log(addition(10,10));
+// let addition = function(x,y) {
+//     return x + y;
+//    };
+
+
+// console.log(addition);
+// console.log(addition(10,30));
+
+// let arr = [1,2,3,4,5];
+
+// var arr = new Array(6,5,4,3,2,1);
+
+// var arr = [1,2,3,4,5,6,7,8,9,10];
+// // var array = arr.splice(1,3,11,12);
+// function print(element){
+//     console.log(element);
+// }
+
+// arr.forEach(print);
+
+// var student = {
+//     name : "bashu",
+//     rollno : 10,
+//     marks : 80,
+//     adress : {
+//         city : "gwalior",
+//         state : "MP"
+//     }
+// };
+
+// console.log(student.marks);
+
+// student.gender = "male" ;
+// console.log(student);
+// console.log(student['rollno']);
+// delete student.rollno;
+
+// for(var prop in student){
+//     console.log(prop,student[prop]);
+// };
+
+// var arr = [1,2,3,4];
+// arr[6] = 5;
+// console.log(arr); 
+
+var i=1;
+function sayHello(){
+    console.log("Hello");
+    i++;
+    if(i==6){
+        clearInterval(id);
+    }
+}
+
+// setTimeout(sayHello, 10000);
+
+// setInterval(() => {
+//     sayHello();
+// }, 2000);
+
+// var id = setInterval(sayHello,2000);
+
+// Counting Timer
+
+var timer = 20;
+function timerWatch(){
+
+    if(timer==0){
+        console.log("Times Up!");
+        clearInterval(id);
+    }
+    console.log(timer);
+    timer--;
+}
+
+var id = setInterval(timerWatch,1000);
+
+
+    
+
+   
