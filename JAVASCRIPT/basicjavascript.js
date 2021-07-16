@@ -141,20 +141,53 @@ function sayHello(){
 
 // Counting Timer
 
-var timer = 20;
-function timerWatch(){
+// var timer = 20;
+// function timerWatch(){
 
-    if(timer==0){
-        console.log("Times Up!");
-        clearInterval(id);
-    }
-    console.log(timer);
-    timer--;
-}
+//     if(timer==0){
+//         console.log("Times Up!");
+//         clearInterval(id);
+//     }
+//     console.log(timer);
+//     timer--;
+// }
 
-var id = setInterval(timerWatch,1000);
+// var id = setInterval(timerWatch,1000);
 
 
+
+// On click Event
+
+
+// console.log('Hello');
+
+// var clickhere = document.getElementById('btn');
+// clickhere.addEventListener('click',function(){
+//     alert('Hello People');
+// });
+
+// console.log(clickhere);
+
+
+// Other Mouse and keyboard event
+
+var outerdiv = document.getElementById('outer');
+
+outerdiv.addEventListener('mouseover',function(){
+    // outerdiv.style.backgroundColor = 'yellow';
+    console.log('Mouse Over');
+});
+
+outerdiv.addEventListener('mouseout',function(){
+    // outerdiv.style.backgroundColor = 'cyan';
+    console.log('Mouse Out');
+});
+
+var searchInput = document.getElementById('search');
+
+searchInput.addEventListener('keydown',function(event){
+    console.log('Key Pressed',event.keyCode);
+});
     
 
    
