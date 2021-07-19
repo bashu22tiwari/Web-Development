@@ -171,23 +171,58 @@ function sayHello(){
 
 // Other Mouse and keyboard event
 
-var outerdiv = document.getElementById('outer');
+// var outerdiv = document.getElementById('outer');
 
-outerdiv.addEventListener('mouseover',function(){
-    // outerdiv.style.backgroundColor = 'yellow';
-    console.log('Mouse Over');
-});
+// outerdiv.addEventListener('mouseover',function(){
+//     // outerdiv.style.backgroundColor = 'yellow';
+//     console.log('Mouse Over');
+// });
 
-outerdiv.addEventListener('mouseout',function(){
-    // outerdiv.style.backgroundColor = 'cyan';
-    console.log('Mouse Out');
-});
+// outerdiv.addEventListener('mouseout',function(){
+//     // outerdiv.style.backgroundColor = 'cyan';
+//     console.log('Mouse Out');
+// });
 
-var searchInput = document.getElementById('search');
+// var searchInput = document.getElementById('search');
 
-searchInput.addEventListener('keydown',function(event){
-    console.log('Key Pressed',event.keyCode);
-});
+// searchInput.addEventListener('keydown',function(event){
+//     console.log('Key Pressed',event.keyCode);
+// });
+
+// var innerDiv = document.getElementById('inner');
+// innerDiv.addEventListener('click',function(event){
+//     console.log('Inner Div Clicked');
+//     event.stopPropagation();
+// });
+
+// var outerdiv = document.getElementById('outer');
+// outerdiv.addEventListener('click',function(){
+//     console.log('Outer Div Clicked');
+// });
+
+
+// document.addEventListener('click',function(){
+//     console.log('All Div Clicked');
+// });
+
+// var list = document.getElementById('mylist');
+
+// console.log(list);
+
+var i = 10;
+
+function outer(){
+    var j = 20;
+    console.log(i,j);
+    function inner(){
+        var k = 30;
+        console.log(j,k);
+    }
+    return inner;
+}
+
+var outerCall = outer();
+outerCall();
     
 
    
