@@ -122,14 +122,14 @@
 // arr[6] = 5;
 // console.log(arr); 
 
-var i=1;
-function sayHello(){
-    console.log("Hello");
-    i++;
-    if(i==6){
-        clearInterval(id);
-    }
-}
+// var i=1;
+// function sayHello(){
+//     console.log("Hello");
+//     i++;
+//     if(i==6){
+//         clearInterval(id);
+//     }
+// }
 
 // setTimeout(sayHello, 10000);
 
@@ -209,20 +209,98 @@ function sayHello(){
 
 // console.log(list);
 
-var i = 10;
+// var i = 10;
 
-function outer(){
-    var j = 20;
-    console.log(i,j);
-    function inner(){
-        var k = 30;
-        console.log(j,k);
-    }
-    return inner;
-}
+// function outer(){
+//     var j = 20;
+//     console.log(i,j);
+//     function inner(){
+//         var k = 30;
+//         console.log(j,k);
+//     }
+//     return inner;
+// }
 
-var outerCall = outer();
-outerCall();
+// var outerCall = outer();
+// outerCall();.
+
+// console.log(this);
+
+
+
+// function demo(){
+//     console.log(this);
+// }
+
+// var obj = {
+//     property1: 12 ,
+//     print: function(){
+//         console.log(this);
+//     }
+// }
     
+// console.log(this);
+// demo.call(obj);
+// obj.print();
 
+// var student = {
+//     name: "bashu",
+//     rollNo: 20,
+//     marks: 85
+// };
+
+// console.log(student);
+
+// 'use strict'
+
+// function Student(name, rollNo, marks){
+//         this.name = name;
+//         this.rollNo = rollNo;
+//         this.marks = marks; 
+// }
+
+// Student.prototype.getname = function(){
+//         return this.name ;
+// };
+
+// Student.prototype.gender = "Male" ;
+
+// var student1 = new Student("abc",1,56);
+// var student2 = new Student("ewf",2,90);
+
+
+
+
+
+// console.log(student1.gender);
+// console.log(student2.gender);
+
+// class Student{
+//     constructor(name, rollNo, marks){
+//         this.name = name;
+//         this.rollNo = rollNo;
+//         this.marks = marks;   
+//     }
+
+// 	getName(){
+// 		return this.name ;
+// 	}
+// }
+
+// var student1 = new Student("abc",1,56);
+// var student2 = new Student("ewf",2,90);
    
+// console.log(student1);
+// console.log(student2);
+
+
+let Rectangle = class {
+	constructor(height, width) {
+	  this.height = height;
+	  this.width = width;
+	}
+  };
+  console.log(Rectangle.name);
+
+  var rect = new Rectangle(10,20);
+
