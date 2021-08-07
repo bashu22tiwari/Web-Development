@@ -294,13 +294,54 @@
 // console.log(student2);
 
 
-let Rectangle = class {
-	constructor(height, width) {
-	  this.height = height;
-	  this.width = width;
-	}
-  };
-  console.log(Rectangle.name);
+// let Rectangle = class {
+// 	constructor(height, width) {
+// 	  this.height = height;
+// 	  this.width = width;
+// 	}
+//   };
+//   console.log(Rectangle.name);
 
-  var rect = new Rectangle(10,20);
+//   var rect = new Rectangle(10,20);
+
+// function validate(){
+// 	var username = document.getElementById("uname");
+// 	var password = document.getElementById("pass");
+
+// 	if(username.value=="" || password.value==""){
+// 		alert("No Blank Values Allowed");
+// 	}
+// 	else{
+
+// 	}
+// }
+
+// var button = document.getElementById("butt");
+// button.addEventListener('click',validate);
+
+
+let complete = true;
+
+let prom = new Promise(function(resolve,reject){
+	if(complete){
+		resolve("I am Succesful");
+	}
+	else{
+		reject("I am failed");
+	}
+});
+
+console.log(prom);
+
+let onfulfillment = (result) => {
+	console.log(result);
+}
+
+let onrejection = (error) => {
+	console.log(error);
+}
+
+prom.then(onfulfillment);
+prom.catch(onrejection);
+  
 
