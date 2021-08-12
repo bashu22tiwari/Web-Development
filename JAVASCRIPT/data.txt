@@ -1,1 +1,0 @@
-Hello, we are using fetch api to read this text file.
